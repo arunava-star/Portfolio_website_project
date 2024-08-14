@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Arunava Bandhu</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Arunava Bandhu</h1>
+                <h4 class="sub-heading">
+                    Software Developer & Engineer
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">GitHub</button>
+                <button class="btn ghost-btn">Get Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://img.freepik.com/free-photo/web-design-technology-browsing-programming-concept_53876-163260.jpg" 
+                                 alt="Web Design Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para blue-text">Designing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://api.reliasoftware.com/uploads/web_development_is_important_176fa0618e.jpg" 
+                                 alt="Web Development Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para blue-text">Development</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://emeritus.org/in/wp-content/uploads/sites/3/2022/11/IIMK-ASMP-1024x576.jpg.optimal.jpg" alt="SEO Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Marketing & SEO Optimization</h3>
+                        <p class="small-para blue-text">Marketing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://www.keenesystems.com/hs-fs/hubfs/software-testing.jpg?width=900&name=software-testing.jpg" 
+                                 alt="Content Writting Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Automation Testing
+                          </h3>
+                        <p class="small-para blue-text">Testing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/How%20to%20Choose%20the%20Best%20Project%20Management%20Software1643648253991190.jpg" 
+                                 alt="Wordpress Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Software Project Management 
+                          </h3>
+                        <p class="small-para blue-text">
+                              Management
+                          </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://www.motionedits.com/wp-content/uploads/2022/02/5-Essential-Elements-of-Effective-Video-Post-Production-1024x683.jpg" 
+                                 alt="Video Editing Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para blue-text">Editing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+                Enthusiastic B.Tech CSE student with a 
+                passion for developing innovative software 
+                solutions. Proficient in various programming 
+                languages including C++,  HTML, CSS, and Java. 
+                Strong desire to expand programming and project 
+                management skills and contribute to real-world 
+                projects.
+
+
+            </p>
+            <p>
+                Quick learner with excellent 
+                problem-solving abilities and acollaborative mindset. 
+                Seeking for a successful career in software 
+                development with an elevated position in corporate.
+
+
+                 
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="https://res-console.cloudinary.com/dmukidrru/thumbnails/v1/image/upload/v1722972326/dm00bWVkd3FsZGhxdmVkZGFjcnU=/preview" alt="about image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para">
+                            Web design is the art and science of creating 
+                            visually appealing, user-friendly websites. 
+                            It involves planning, conceptualizing, and 
+                            building the structure and layout of a website.  
+                        </p>
+                        <p class="small-para">
+                            Designers consider factors like color 
+                            schemes, typography, imagery, and user 
+                            experience to create websites that are 
+                            both functional and engaging.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para">
+                            Web development is the process of creating 
+                            websites and web applications. It involves 
+                            coding with languages like HTML, CSS, and 
+                            JavaScript for the front-end and languages 
+                            like Python, Ruby, or PHP for the back-end.
+                        </p>
+                        <p class="small-para">
+                            Developers build the structure, design, and 
+                            functionality of websites, ensuring they work 
+                            seamlessly across different devices.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Marketing & SEO</h3>
+                        <p class="small-para">
+                            Marketing is the process of identifying, 
+                            anticipating, and satisfying customer needs 
+                            profitably. It involves researching, creating, 
+                            promoting, and delivering products or services 
+                            to a target market.
+                        </p>
+                        <p class="small-para">
+                            SEO (Search Engine Optimization) is a subset 
+                            of marketing focused on improving a website's 
+                            visibility on search engine results pages (SERPs).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Automation Testing
+                          </h3>
+                        <p class="small-para">
+                            Automation testing is a software testing technique 
+                            that employs specialized tools to execute test
+                             cases and compare actual results with expected 
+                             outcomes. Unlike manual testing, which is prone 
+                             to human error, automation offers efficiency, 
+                             speed, and accuracy.
+                        </p>
+                        <p class="small-para">
+                            Automating focus on complex test scenarios, 
+                            improve test coverageachieve faster time-to-market.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Software Project Management
+                          </h3>
+                        <p class="small-para">
+                            Software Project Management is the art of planning, 
+                            organizing, and controlling the development of 
+                            software. It involves defining project goals, 
+                            assembling a team, allocating resources, 
+                            establishing timelines, and ensuring the final product 
+                            meets quality standards.
+                        </p>
+                        <p class="small-para">
+                            Effective management balances scope, time, cost, and 
+                            quality while managing risks and fostering collaboration.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para">
+                            Video editing is the process of manipulating and 
+                            arranging video clips to create a final product. 
+                            It involves tasks like trimming, cutting, joining 
+                            clips, adding effects, transitions, text, music, and 
+                            color correction.
+                        </p>
+                        <p class="small-para">
+                            Editors use specialized software to achieve desired 
+                            results, ranging from simple cuts to complex visual 
+                            storytelling. The goal is to enhance the video's narrative, pacing, and overall impact.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">bandhuarunava003@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 7029638915</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Kolkata, WB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Created by Arunava Bandhu  |   Copyright © 2023            
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
